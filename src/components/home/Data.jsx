@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Front End Developer</h3>
+      <h3 className="home__subtitle">Software Developer</h3>
       <p className="home__description">
         Desenvolvedor focado em boas práticas no desenvolvimento de aplicações
         performáticas e responsivas. Sou dedicado e apaixonado pelo meu
