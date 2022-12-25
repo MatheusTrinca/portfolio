@@ -18,9 +18,9 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Fontend
+              Desenvolvimento
               <br />
-              Development
+              Frontend
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -39,7 +39,9 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">Frontend Development</h3>
+              <h3 className="services__modal-title">
+                Desenvolvimento Frontend
+              </h3>
               <p className="services__modal-description">
                 5 anos de experiência
               </p>
@@ -84,9 +86,9 @@ const Services = () => {
           <div>
             <i className="uil uil-brackets-curly services__icon"></i>
             <h3 className="services__title">
-              Backend
+              Desenvolvimento
               <br />
-              Development
+              Backend
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -105,7 +107,7 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">Backend Development</h3>
+              <h3 className="services__modal-title">Desenvolvimento Backend</h3>
               <p className="services__modal-description">
                 Mais de 3 anos de experiência.
               </p>
@@ -160,9 +162,9 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Mobile
+              Desenvolvimento
               <br />
-              Development
+              Mobile
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -181,7 +183,7 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
                 onClick={() => toggleTab(0)}
               ></i>
-              <h3 className="services__modal-title">Mobile Development</h3>
+              <h3 className="services__modal-title">Desenvolvimento Mobile</h3>
               <p className="services__modal-description">
                 Mais de 4 anos de experiência.
               </p>
