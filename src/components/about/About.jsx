@@ -26,7 +26,7 @@ const About = () => {
             className="button button--flex"
             target="_blank"
           >
-            Download CV
+            Meu Github
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
