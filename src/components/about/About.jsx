@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import AboutImg from '../../assets/about1.png';
-import CV from '../../assets/MatheusFelipeTrinca.pdf';
+import CV from '../../assets/MatheusFelipeTrinca_CV.pdf';
 import Info from './Info';
 
 const About = () => {
@@ -20,7 +20,12 @@ const About = () => {
             sempre focando em criar um código limpo e reutilizável, que possa
             ser facilmente interpretado e de fácil manutenção.
           </p>
-          <a download="" href={CV} className="button button--flex">
+          {/* <a download="" href={CV} className="button button--flex"> */}
+          <a
+            href="https://www.github.com/MatheusTrinca"
+            className="button button--flex"
+            target="_blank"
+          >
             Download CV
             <svg
               className="button__icon"

@@ -61,7 +61,12 @@ const Data = () => {
         performáticas e responsivas. Sou dedicado e apaixonado pelo meu
         trabalho.
       </p>
-      <a href="" id="contact" className="button button--flex">
+      <a
+        href="https://api.whatsapp.com/send?phone=5514999014372"
+        id="contact"
+        className="button button--flex"
+        target="_blank"
+      >
         Me diga Olá!
         <svg
           class="button__icon"
