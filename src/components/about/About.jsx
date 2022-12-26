@@ -20,13 +20,8 @@ const About = () => {
             sempre focando em criar um código limpo e reutilizável, que possa
             ser facilmente interpretado e de fácil manutenção.
           </p>
-          {/* <a download="" href={CV} className="button button--flex"> */}
-          <a
-            href="https://www.github.com/MatheusTrinca"
-            className="button button--flex"
-            target="_blank"
-          >
-            Meu Github
+          <a download="" href={CV} className="button button--flex">
+            Baixe o meu CV
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
