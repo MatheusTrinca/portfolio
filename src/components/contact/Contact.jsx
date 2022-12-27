@@ -3,7 +3,7 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <section className="contact section" id="contact">
+    <section className="contact section" id="message">
       <h2 className="section__title">Me Contate</h2>
       <span className="section__subtitle">Fale comigo</span>
 
@@ -75,7 +75,7 @@ const Contact = () => {
                 placeholder="Digite seu email"
               />
             </div>
-            <div className="contact__form-div">
+            <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Mensagem</label>
               <textarea
                 name="message"
