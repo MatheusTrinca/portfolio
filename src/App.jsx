@@ -1,5 +1,7 @@
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
+import 'react-toastify/dist/ReactToastify.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
@@ -26,6 +28,7 @@ const App = () => {
       </main>
       <Footer />
       <ScrollUp />
+      <ToastContainer />
     </>
   );
 };

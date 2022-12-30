@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const form = useRef();
@@ -8,13 +9,38 @@ const Contact = () => {
   const sendEmail = e => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      'service_78jdip6',
-      'template_ozkejpt',
-      form.current,
-      '3hi-7NSuUfSuqBNgP'
-    );
-    e.target.reset();
+    emailjs
+      .sendForm(
+        'service_78jdip6',
+        'template_ozkejpt',
+        form.current,
+        '3hi-7NSuUfSuqBNgP'
+      )
+      .then(() => {
+        e.target.reset();
+        toast.success('Email enviado!', {
+          position: 'top-right',
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'light',
+        });
+      })
+      .catch(() => {
+        toast.error('Erro ao enviar email, tente novamente', {
+          position: 'top-right',
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'light',
+        });
+      });
   };
 
   return (
