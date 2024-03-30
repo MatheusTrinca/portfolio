@@ -62,7 +62,7 @@ const Data = () => {
         trabalho.
       </p>
       <a
-        href="https://api.whatsapp.com/send?phone=5514999014372"
+        href="https://api.whatsapp.com/send?phone=5491127453966"
         id="contact"
         className="button button--flex"
         target="_blank"

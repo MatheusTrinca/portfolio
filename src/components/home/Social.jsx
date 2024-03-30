@@ -11,7 +11,7 @@ const Social = () => {
         <i className="bx bxl-linkedin"></i>
       </a>
       <a
-        href="https://api.whatsapp.com/send?phone=5514999014372"
+        href="https://api.whatsapp.com/send?phone=5491127453966"
         className="home__social-icon"
         target="_blank"
       >

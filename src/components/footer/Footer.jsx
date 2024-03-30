@@ -33,7 +33,7 @@ const Footer = () => {
             <i style={{ marginTop: 4 }} className="bx bxl-linkedin"></i>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=5514999014372"
+            href="https://api.whatsapp.com/send?phone=5491127453966"
             className="footer__social-link"
             target="_blank"
           >
